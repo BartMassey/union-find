@@ -1,3 +1,8 @@
+// Copyright © 2017 Bart Massey
+// [This program is licensed under the "MIT License"]
+// Please see the file LICENSE in the source
+// distribution of this software for license terms.
+
 //! A union-find data structure contains a partition of a
 //! contiguous bounded set of integers. It supports two operations.
 //! The *union* operation merges two partitions. The *find* operation
