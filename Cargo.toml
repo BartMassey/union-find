@@ -1,0 +1,7 @@
+[package]
+name = "union-find"
+version = "0.1.0"
+authors = ["Bart Massey <bart.massey@gmail.com>"]
+
+[dependencies]
+
