@@ -7,6 +7,9 @@
 name = "union-find"
 version = "0.1.0"
 authors = ["Bart Massey <bart.massey@gmail.com>"]
+description = "Union-find with path shortening"
+keywords = ["union-find", "disjoint-set"]
+license-file = "LICENSE"
 
 [dependencies]
 
