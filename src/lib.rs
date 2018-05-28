@@ -94,7 +94,7 @@ impl UnionFind {
     /// Time complexity is the same as `find_only()`. Prefer
     /// `same()` in any case where it is possible to make
     /// the table mutable.
-    pub fn same_only(&mut self, i: usize, j: usize) -> bool {
+    pub fn same_only(&self, i: usize, j: usize) -> bool {
         self.find_only(i) == self.find_only(j)
     }
 }
