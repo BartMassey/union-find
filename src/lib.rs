@@ -48,7 +48,9 @@ impl UnionFind {
     /// canonical element of `i` in the old
     /// partition. Running time O(1).
     pub fn union(&mut self, i: usize, j: usize) {
-        self.parts[j] = self.parts[i];
+        let i_leader = self.find(i);
+        let j_leader = self.find(j);
+        self.parts[j_leader] = self.parts[i_leader];
     }
 
     /// Return a "canonical element" for the partition
