@@ -46,7 +46,10 @@ impl UnionFind {
     /// operation is structured such that the canonical
     /// element of the merged partition will be the
     /// canonical element of `i` in the old
-    /// partition. Running time O(1).
+    /// partition. Amortized worst-case running time
+    /// O(alpha(n)) + O(alpha(m)) where n and m are the
+    /// number of elements in partition `i` and `j`. This is
+    /// more-or-less O(1).
     pub fn union(&mut self, i: usize, j: usize) {
         let i_leader = self.find(i);
         let j_leader = self.find(j);
