@@ -7,8 +7,8 @@ supports two fundamental operations: *union* to merge two
 partitions, and *find* to find a "canonical" partition
 label. Both are fast.
 
-Full Rustdoc documentation is provided. GitHub makes it too
-painful to actually point to it from here.
+Full Rustdoc documentation is provided, but you'll have to
+build it yourself.
 
 This is a work in progress:
 
